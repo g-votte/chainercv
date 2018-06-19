@@ -9,6 +9,9 @@ from chainercv.links.model.faster_rcnn.faster_rcnn_vgg import FasterRCNNVGG16  #
 from chainercv.links.model.resnet import ResNet101  # NOQA
 from chainercv.links.model.resnet import ResNet152  # NOQA
 from chainercv.links.model.resnet import ResNet50  # NOQA
+from chainercv.links.model.senet import SEResNet101  # NOQA
+from chainercv.links.model.senet import SEResNet152  # NOQA
+from chainercv.links.model.senet import SEResNet50  # NOQA
 from chainercv.links.model.segnet.segnet_basic import SegNetBasic  # NOQA
 from chainercv.links.model.ssd import SSD300  # NOQA
 from chainercv.links.model.ssd import SSD512  # NOQA
