@@ -2,7 +2,7 @@ import chainer
 import chainer.functions as F
 
 from chainercv.links import Conv2DBNActiv
-from chainercv.links.model.senet.seblock import SEBlock
+from chainercv.links import SEBlock
 from chainercv.links import PickableSequentialChain
 
 

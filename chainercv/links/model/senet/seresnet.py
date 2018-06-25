@@ -8,7 +8,7 @@ from chainer import initializers
 import chainer.links as L
 
 from chainercv.links import Conv2DBNActiv
-from chainercv.links.model.resnet.resblock import ResBlock
+from chainercv.links.model.resnet import ResBlock
 from chainercv.links import PickableSequentialChain
 from chainercv import utils
 
