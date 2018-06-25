@@ -22,9 +22,9 @@ Ten crop error rate.
 | ResNet50 | 23.0 % | 22.9 % [2] |
 | ResNet101 | 21.8 % | 21.8 % [2] |
 | ResNet152 | 21.4 % | 21.4 % [2] |
-| SE-ResNet50 | todo |  |
-| SE-ResNet101 | todo |  |
-| SE-ResNet152 | todo |  |
+| SE-ResNet50 | |  |
+| SE-ResNet101 | |  |
+| SE-ResNet152 | 19.7% |  |
 
 
 The results can be reproduced by the following command.

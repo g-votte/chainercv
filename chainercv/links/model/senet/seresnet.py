@@ -25,18 +25,19 @@ class SEResNet(PickableSequentialChain):
 
     """Base class for SE-ResNet architecture.
 
-    .. seealso::
-        :class:`chainercv.links.model.resnet.ResNet`
-
     This architecture is based on ResNet. A squeeze-and-excitation block is
     applied at the end of each non-identity branch of residual block. Please
-    refer to the original paper for a detailed description of network
-    architecture: <https://arxiv.org/pdf/1709.01507.pdf>_.
+    refer to `the original paper  <https://arxiv.org/pdf/1709.01507.pdf>`_
+    for a detailed description of network architecture.
 
     Similar to :class:`chainercv.links.model.resnet.ResNet`, ImageNet
     pretrained weights are downloaded when :obj:`pretrained_model` argument
-    is :obj:`imagenet`:, originally distributed at:
-    <https://github.com/hujie-frank/SENet>
+    is :obj:`imagenet`, originally distributed at `the Github repository by
+    one of the paper authors <https://github.com/hujie-frank/SENet>`_.
+
+    .. seealso::
+        :class:`chainercv.links.model.resnet.ResNet`
+        :class:`chainercv.links.connection.SEBlock`
 
     Args:
         n_layer (int): The number of layers.

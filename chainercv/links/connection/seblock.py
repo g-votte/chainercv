@@ -9,8 +9,11 @@ class SEBlock(chainer.Chain):
 
     This block is part of squeeze-and-excitation networks. Channel-wise
     multiplication weights are inferred from and applied to input feature map.
-    Please refer to the original paper for more details:
-    <https://arxiv.org/pdf/1709.01507.pdf>_.
+    Please refer to `the original paper
+    <https://arxiv.org/pdf/1709.01507.pdf>`_ for more details.
+
+    .. seealso::
+        :class:`chainercv.links.model.senet.SEResNet`
 
     Args:
         n_channels (int): The number of channels of the input and output array.
